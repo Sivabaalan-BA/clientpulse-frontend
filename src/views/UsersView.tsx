@@ -20,8 +20,8 @@ export const UsersView: React.FC = () => {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-hidden">
-        <table className="w-full text-left border-collapse text-xs">
+      <div className="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-x-auto">
+        <table className="w-full text-left border-collapse text-xs min-w-[640px]">
           <thead>
             <tr className="bg-slate-50/70 border-b border-slate-200 text-[11px] font-bold text-slate-500 uppercase tracking-wider">
               <th className="py-3 px-4">User Name</th>

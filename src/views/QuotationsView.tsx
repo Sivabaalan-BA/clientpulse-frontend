@@ -84,7 +84,7 @@ export const QuotationsView: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-slate-900">Commercial Quotations & Proposals</h1>
           <p className="text-sm text-slate-500 mt-1">
@@ -100,8 +100,8 @@ export const QuotationsView: React.FC = () => {
       </div>
 
       {/* Quotations List */}
-      <div className="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-hidden">
-        <table className="w-full text-left border-collapse text-xs">
+      <div className="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-x-auto">
+        <table className="w-full text-left border-collapse text-xs min-w-[640px]">
           <thead>
             <tr className="bg-slate-50/70 border-b border-slate-200 text-[11px] font-bold text-slate-500 uppercase tracking-wider">
               <th className="py-3 px-4">Quote Ref #</th>

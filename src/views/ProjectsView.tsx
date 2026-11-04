@@ -114,11 +114,11 @@ export const ProjectsView: React.FC = () => {
 
           {/* Kanban / Tasks Column */}
           <div className="bg-white rounded-xl border border-slate-200/80 p-5 shadow-xs">
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-2">
                 <CheckSquare className="w-4 h-4 text-brand-600" /> Tasks & Delivery Items ({selectedProject.tasks?.length || 0})
               </h3>
-              <form onSubmit={handleAddTask} className="flex gap-2 w-96">
+              <form onSubmit={handleAddTask} className="flex gap-2 w-full sm:w-80 md:w-96">
                 <input
                   type="text"
                   placeholder="Add new delivery task..."

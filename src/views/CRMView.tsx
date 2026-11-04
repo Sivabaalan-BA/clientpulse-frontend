@@ -65,7 +65,7 @@ export const CRMView: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-slate-900">CRM & Client Directory</h1>
           <p className="text-sm text-slate-500 mt-1">
@@ -81,8 +81,8 @@ export const CRMView: React.FC = () => {
       </div>
 
       {/* Clients Table */}
-      <div className="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-hidden">
-        <table className="w-full text-left border-collapse">
+      <div className="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-x-auto">
+        <table className="w-full text-left border-collapse min-w-[640px]">
           <thead>
             <tr className="bg-slate-50/70 border-b border-slate-200 text-[11px] font-bold text-slate-500 uppercase tracking-wider">
               <th className="py-3 px-4">Company Name</th>

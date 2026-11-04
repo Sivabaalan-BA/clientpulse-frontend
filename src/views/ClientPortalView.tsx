@@ -66,7 +66,7 @@ export const ClientPortalView: React.FC = () => {
     <div className="space-y-6">
       {/* Top Banner */}
       <div className="p-6 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-2xl text-white shadow-md">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <span className="text-xs font-mono uppercase tracking-widest text-brand-300">Client Portal</span>
             <h1 className="text-2xl font-bold mt-1">Welcome, {data?.companyName || user?.firstName || 'Valued Client'}</h1>
