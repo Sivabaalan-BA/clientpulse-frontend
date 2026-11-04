@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ClientPulse Frontend — React + TypeScript + Tailwind CSS
 
 The frontend client for **ClientPulse**, an AI-powered client management and business workflow platform tailored for freelancers, agencies, and small businesses.
@@ -49,3 +50,6 @@ git branch -M main
 git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/clientpulse-frontend.git
 git push -u origin main
 ```
+=======
+# clientpulse-frontend
+>>>>>>> 57118552455bc53f3d4b627287e1b42146be3506
