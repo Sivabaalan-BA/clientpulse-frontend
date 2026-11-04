@@ -27,7 +27,7 @@ npm install
 ```bash
 npm run dev
 ```
-The application runs on `http://localhost:5173`.
+The application runs on `http://localhost:5173` and opens in your default browser. When this workspace is opened in VS Code, its frontend development task starts automatically.
 
 ### 3. Build for Production
 ```bash
